@@ -40,6 +40,7 @@ public class Cars {
 					validStreets.add(graph[j][k]);
 				}
 			}
+			// hi
 			int numOfStreets = validStreets.size() % 2 == 0 ? validStreets.size() / 2 : validStreets.size() / 2 + 1;
 			System.out.println(numOfStreets);
 			int k = 0, count = 0;
